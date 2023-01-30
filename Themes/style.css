@@ -1,0 +1,106 @@
+body{
+  width: 100%;
+}
+
+header{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+header ul{
+  display: inline-flex;
+}
+
+header li{
+  font-size: 20px;
+  margin: 50px 50px;
+}
+
+header a{
+  color: grey;
+  text-decoration: none;
+}
+
+header a:hover{
+  color: green;
+  font-weight: bold;
+  }
+
+section main{
+    float: left;
+    width: 40%;
+  }
+
+  section img{
+    float: right;
+    width: 60%;
+  }
+
+  span{
+    color: red;
+  }
+
+  h2{
+    font-size: 50px;
+    color: green;
+    font-weight: bold;
+  }
+  div{
+    clear: both;
+    font-size: 30px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+  }
+
+  footer{
+    display: grid;
+    grid-template-columns:2fr 1fr 1fr;
+    background-color: black;
+    color: white;
+    width: 100%;
+  }
+
+  h3{
+    color: green;
+  }
+
+  h1{
+    background-color: green;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+  }
+
+  #head{
+    background-color: rgb(181, 240, 181);
+    display: inline-block;
+    margin-top: 0;
+  }
+
+  h5{
+    color: gray; 
+  }
+
+  h5 span{
+    color: black;
+  }
+
+  #left{
+    float: left;
+  }
+
+  #right{
+    float: right;
+  }
+
+  form{
+    clear: both;
+  }
+ 
+
+
+
